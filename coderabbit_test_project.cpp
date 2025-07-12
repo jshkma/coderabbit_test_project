@@ -14,10 +14,13 @@
 // 1. 두 수의 합을 구하는 함수
 int add(int a, int b) 
 {
-	int c = 0;
-	c = a + b;
+	int _c = 0;
+    int _a = a;
+    int _b = b;
+
+	_c = _a + _b;
     //return a + b;
-    return c = a + b;
+    return c;
 }
 
 // 2. 숫자가 짝수인지 확인하는 함수
