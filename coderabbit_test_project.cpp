@@ -17,7 +17,7 @@ int add(int a, int b)
 	int c = 0;
 	c = a + b;
     //return a + b;
-    return c;
+    return c = a + b;
 }
 
 // 2. 숫자가 짝수인지 확인하는 함수
